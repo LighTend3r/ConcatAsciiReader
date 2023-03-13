@@ -1,3 +1,5 @@
+#! /usr/bin/python
+
 import copy
 import argparse
 
@@ -47,12 +49,13 @@ def next(i, sentence, char):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-                    prog='car',
+                    prog='asciir',
                     description='Parser of concat ascii, it can research ascii character when the string don\'t have any space')
 
     parser.add_argument('-d', '--debug', action='store_true', help='seen the debug to see the process')
     parser.add_argument('-t', '--txt', help='The text to decode', required=True)
     args = parser.parse_args()
+
     for i in args.txt:
         if i not in "0123456789":
             print("Error, only number")
