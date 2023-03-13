@@ -2,7 +2,7 @@
 One programme can read this : 72101108108111328711111410810033
 
 
-usage: asciir [-h] [-d] -t TXT
+usage: asciir.py [-h] [-d] -t TXT
 
 Parser of concat ascii, it can research ascii character when the string don't have any space,
 It finds all possible combinations
@@ -18,7 +18,7 @@ options:
   ---
   
   ```
-  python3 asciir -t 72101108108111328711111410810033
+  python3 asciir.py -t 72101108108111328711111410810033
   ```
   Show you `Hello world!`
   
