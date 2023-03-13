@@ -14,6 +14,8 @@ options:
   
   -t TXT, --txt TXT  The text to decode
   
+  
+  
   ```
   python3 asciir -t 72101108108111328711111410810033
   ```
