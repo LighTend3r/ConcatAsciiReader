@@ -8,11 +8,11 @@ Parser of concat ascii, it can research ascii character when the string don't ha
 
 options:
 
-  -h, --help         show this help message and exit
+  `-h`, `--help`         show this help message and exit
   
-  -d, --debug        seen the debug to see the process
+  `-d`, `--debug`        seen the debug to see the process
   
-  -t TXT, --txt TXT  The text to decode
+  `-t TXT`, `--txt TXT`  The text to decode
   
   ---
   
