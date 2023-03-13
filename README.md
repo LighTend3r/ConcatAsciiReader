@@ -7,8 +7,11 @@ usage: asciir [-h] [-d] -t TXT
 Parser of concat ascii, it can research ascii character when the string don't have any space
 
 options:
+
   -h, --help         show this help message and exit
+  
   -d, --debug        seen the debug to see the process
+  
   -t TXT, --txt TXT  The text to decode
   
   ```
